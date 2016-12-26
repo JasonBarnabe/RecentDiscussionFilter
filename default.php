@@ -9,7 +9,8 @@ $PluginInfo['RecentDiscussionFilter'] = array(
 	'RequiredApplications' => array('Vanilla' => '2.1'),
 	'AuthorEmail' => 'jason.barnabe@gmail.com',
 	'AuthorUrl' => 'https://github.com/JasonBarnabe/RecentDiscussionFilter',
-	'MobileFriendly' => TRUE
+	'MobileFriendly' => TRUE,
+	'License' => "GNU GPL2"
 );
 
 require_once dirname(__FILE__).'/config.php';
