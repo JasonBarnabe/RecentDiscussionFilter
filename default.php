@@ -24,8 +24,7 @@ class RecentDiscussionFilterPlugin extends Gdn_Plugin {
 		$this->Config = RecentDiscussionFilterPluginConfig();
 	}
 
-	# Add CSS, JS, and link to main site
-	public function Base_Render_Before($Sender) {
+	public function assetModel_styleCss_handler($Sender) {
 		$Sender->addCssFile('global.css', 'plugins/RecentDiscussionFilter');
 	}
 
