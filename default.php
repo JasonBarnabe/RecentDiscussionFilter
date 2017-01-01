@@ -4,7 +4,7 @@
 $PluginInfo['RecentDiscussionFilter'] = array(
 	'Name' => 'Recent Discussion Filter',
 	'Description' => 'Lets users hide discussions in Recent Discussions based on a specified criteria.',
-	'Version' => '1.0',
+	'Version' => '1.1',
 	'Author' => "Jason Barnabe",
 	'RequiredApplications' => array('Vanilla' => '2.1'),
 	'AuthorEmail' => 'jason.barnabe@gmail.com',
